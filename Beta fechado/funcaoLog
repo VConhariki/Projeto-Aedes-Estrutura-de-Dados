@@ -1,0 +1,12 @@
+//geraçao de LOG
+void geralog(FILE *log,int minicial, int mfinal, int mmov,int aerro, int aacerto, int epidemia){
+
+	log = fopen("log.txt", "a");
+	if(log == NULL){
+		puts("Erro log.txt");
+		return 0;
+	}
+	
+	fprintf(log,"Numero de mosquitos iniciais: %d\nNumero de mosquitos finais: %d\nNumero de movimentos totais dos mosquitos: %d\nNumero de erros dos agentes: %d\nNumero de acertos dos agentes: %d\nEpidemia: %d\n",minicial,mfinal,mmov,aerro,aacerto,epidemia);
+	fclose(log);
+}

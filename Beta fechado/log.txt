@@ -1,0 +1,6 @@
+Numero de mosquitos iniciais: 2
+Numero de mosquitos finais: 17085
+Numero de movimentos totais dos mosquitos: 75520
+Numero de erros dos agentes: 2
+Numero de acertos dos agentes: 18
+Epidemia: Estado de emergencia.

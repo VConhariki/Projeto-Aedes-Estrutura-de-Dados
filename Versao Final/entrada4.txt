@@ -1,0 +1,10 @@
+AGENTE_ATUA 5
+AGENTE_SAUDE 5
+MOSQUITO_BOTA 5
+inserecasa c1 10
+inserecasa c2 10
+ligacasas c1 c2
+inseremosquito c1
+iniciasimulacao 50
+verificasurto
+FIM
